@@ -25,4 +25,5 @@ class DiskStorage:
 
 log_storage = DiskStorage("logs")
 
+log_storage.create_directory()
 log_storage.insert_file("test.txt", "Test")
