@@ -29,7 +29,7 @@ def build_rectangle():
     return rect
 
 
-my_rect = build_rectangle()
+rectangle = build_rectangle()
 
-print(my_rect.area())
-my_rect.print_rectangle_coordinates()
+print(rectangle.area())
+rectangle.print_rectangle_coordinates()
