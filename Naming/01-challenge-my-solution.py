@@ -28,8 +28,7 @@ def build_rectangle():
 
     return rect
 
-
 rectangle = build_rectangle()
 
-print(rectangle.area())
+print(rectangle.get_rectangle_area())
 rectangle.print_rectangle_coordinates()
